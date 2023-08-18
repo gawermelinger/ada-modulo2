@@ -59,8 +59,8 @@ const listaDeAlunos = [
   ];
 
    for (const nota of listaDeNomes) {
-    const soma = nota.notas.reduce((accumulator, currentValue) => accumulator + currentValue, 0); 
-    let media = soma / 2;
+    const totalNotas = nota.notas.reduce((accumulator, currentValue) => accumulator + currentValue, 0); 
+    let media = totakNotas / 2;
     console.log(media);
    }
    
