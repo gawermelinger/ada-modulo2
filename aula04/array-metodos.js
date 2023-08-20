@@ -2,7 +2,7 @@
 Crie um novo array vazio.
 1- Utilize o método "push" para adicionar um elemento ao final do array.
 2- Utilize o método "push" novamente para adicionar outro elemento ao final do array.
-3- Verifique o comprimento (length) do array para confirmar que os elementos foram adicionados corretamente.
+3- Verifique o comprimento (length) do array para confirmar que os elementos foram adicionados corretamente.*/
 let arr = [];
 arr.push(1);
 arr.push(2);
@@ -14,7 +14,7 @@ const numeros = [1, 2, 3, 4];
 1- Utilize o método "pop" para remover o último elemento do array.
 2- Verifique o comprimento (length) do array para confirmar que o elemento foi removido corretamente.
 3- Utilize o método "pop" novamente para remover outro elemento do array.
-4- Verifique o comprimento (length) do array novamente para confirmar que o segundo elemento foi removido corretamente.
+4- Verifique o comprimento (length) do array novamente para confirmar que o segundo elemento foi removido corretamente.*/
 const numeros = [1, 2, 3, 4]
 numeros.pop();
 console.log(numeros, numeros.length);
@@ -27,7 +27,7 @@ const linguagens = ['javascript', 'python', 'golang', 'java']
 1- Utilize o método "shift" para remover o primeiro elemento do array.
 2- Verifique o comprimento (length) do array para confirmar que o elemento foi removido corretamente.
 3- Utilize o método "shift" novamente para remover outro elemento do array.
-4- Verifique o comprimento (length) do array novamente para confirmar que o segundo elemento foi removido corretamente.
+4- Verifique o comprimento (length) do array novamente para confirmar que o segundo elemento foi removido corretamente.*/
 const linguagens = ['javascript', 'python', 'golang', 'java'];
 linguagens.shift();
 console.log(linguagens, linguagens.length);
@@ -41,7 +41,7 @@ const produtos = ['sabao', 'detergente', 'amaciante', 'alvejante', 'sapolio']
 1- Utilize o método "at" para acessar o primeiro elemento do array. Lembre-se de que o índice do primeiro elemento é 0.
 2- Utilize o método "at" novamente para acessar o terceiro elemento do array.
 3- Utilize o método "at" mais uma vez para acessar o último elemento do array. Lembre-se de que o índice do último elemento é o comprimento do array menos 1.
-4- Verifique se você conseguiu acessar os elementos corretamente.
+4- Verifique se você conseguiu acessar os elementos corretamente.*/
 const produtos = ['sabao', 'detergente', 'amaciante', 'alvejante', 'sapolio'] 
 console.log(produtos.at(0));
 console.log(produtos.at(2));
@@ -53,7 +53,7 @@ const lista1 = ['banana', 'pera', 'melancia'];
 const lista2 = ['alface', 'tomate', 'rucula'];
 1- Utilize o método "concat" para mesclar a lista1 e lista2 em um novo array.
 2- Verifique o comprimento (length) do novo array para confirmar que os elementos foram mesclados corretamente.
-3- Tente utilizar o método "concat" com mais algumas listas, mesclando todas em uma só.
+3- Tente utilizar o método "concat" com mais algumas listas, mesclando todas em uma só.*/
 
 const lista1 = ['banana', 'pera', 'melancia'];
 const lista2 = ['alface', 'tomate', 'rucula'];
@@ -77,7 +77,7 @@ var pessoas = [
 1- Utilize o método "every" para verificar se todos os alunos têm idade maior ou igual a 18 anos.
 2- Utilize o método "every" novamente para verificar se todos os alunos têm nome com mais de 3 caracteres.
 3- Utilize o método "every" mais uma vez para verificar se todos os alunos têm idade e nome definidos.
-4- Verifique se você conseguiu utilizar o método "every" corretamente.
+4- Verifique se você conseguiu utilizar o método "every" corretamente.*/
 var pessoas = [
 	{ nome: "João", idade: 22 },
 	{ nome: "Maria", idade: 17 },
@@ -110,7 +110,7 @@ const alunos = [
 1- Utilize o método "filter" para criar um novo array com os alunos que têm idade maior ou igual a 18 anos.
 2- Utilize o método "filter" novamente para criar um novo array com os alunos que têm idade menor que 20 anos.
 3- Utilize o método "filter" mais uma vez para criar um novo array com os alunos cujo nome começa com a letra "J".
-4- Verifique se você conseguiu utilizar o método "filter" corretamente.
+4- Verifique se você conseguiu utilizar o método "filter" corretamente.*/
 const alunos = [
     { nome: 'Ana', idade: 20 },
     { nome: 'Pedro', idade: 18 },
@@ -149,7 +149,7 @@ const lugares = [
 1- Utilize o método "find" para encontrar o primeiro lugar que tenha capacidade máxima de pelo menos 10 pessoas.
 2- Utilize o método "find" novamente para encontrar o primeiro lugar que tenha capacidade máxima de pelo menos 25 pessoas.
 3- Utilize o método "find" mais uma vez para encontrar o primeiro lugar que tenha capacidade máxima de pelo menos 40 pessoas.
-4- Verifique se você conseguiu utilizar o método "find" corretamente.
+4- Verifique se você conseguiu utilizar o método "find" corretamente.*/
 const lugares = [
     { nome: 'Sala de Reuniões', capacidade: 8 },
     { nome: 'Auditório', capacidade: 50 },
@@ -173,7 +173,7 @@ const pizzas = [
   { sabor: 'Portuguesa', valor: 30 }
 ]
 1- Utilize o método "forEach" para percorrer a lista de pizzas e imprimir no console o nome do sabor da pizza e seu valor.
-2- Verifique se você conseguiu utilizar o método "forEach" corretamente.
+2- Verifique se você conseguiu utilizar o método "forEach" corretamente.*/
 const pizzas = [
     { sabor: 'Mussarela', valor: 20 },
     { sabor: 'Calabresa', valor: 25 },
@@ -229,7 +229,7 @@ const alunos = [
 Temos a lista:
 const numeros = [1, 2, 3, 4, 5]
 1- Utilize o método "reverse" para inverter a ordem dos elementos do array.
-2- Verifique se a lista ficou com os elementos na ordem inversa: 5, 4, 3, 2, 1.
+2- Verifique se a lista ficou com os elementos na ordem inversa: 5, 4, 3, 2, 1.*/
 const numeros1 = [1, 2, 3, 4, 5];
 numeros1.reverse();
 console.log(numeros1);
@@ -245,7 +245,7 @@ const empregados = [
 ]
 1- Utilize o método "some" para verificar se pelo menos um dos empregados tem salário maior ou igual a R$ 1.500,00.
 2- Utilize o método "some" novamente para verificar se pelo menos um dos empregados tem salário menor ou igual a R$ 1.000,00.
-3- Verifique se você conseguiu utilizar o método "some" corretamente.
+3- Verifique se você conseguiu utilizar o método "some" corretamente.*/
 const empregados = [
     { nome: 'João', salario: 1200 },
     { nome: 'Maria', salario: 1500 },
@@ -277,7 +277,7 @@ const atletas = [
 1- Utilize o método "sort" para ordenar a lista de atletas em ordem crescente de peso.
 2- Utilize o método "sort" novamente para ordenar a lista de atletas em ordem decrescente de altura.
 3- Utilize o método "sort" mais uma vez para ordenar a lista de atletas em ordem alfabética de nome.
-4- Verifique se você conseguiu utilizar o método "sort" corretamente.
+4- Verifique se você conseguiu utilizar o método "sort" corretamente.*/
 const atletas = [
     { nome: 'João', altura: 1.75, peso: 80 },
     { nome: 'Maria', altura: 1.68, peso: 60 },
